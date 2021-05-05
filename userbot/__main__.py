@@ -29,7 +29,7 @@ else:
             "TG_BOT_TOKEN", api_id=Var.APP_ID, api_hash=Var.API_HASH
         ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
         print("Initialised Sucessfully")
-        print("Starting Dark AI")
+        print("Starting Coffin AI")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
         print("Startup Completed")
     else:
@@ -66,7 +66,7 @@ if LOAD_ASSISTANT == True:
 else:
     print("Assitant is Not Loading As U Have Disabled")
 
-print("DARK COBRA userbot AND YOUR ASSISTANT is Active Enjoy Join @DarkCobra_Support For Updates.")
+print("𝙲𝚘𝚏𝚏𝚒𝚗𝚇 𝚄𝙱 𝙸𝚂 𝚂𝚄𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝙻𝚈 𝙳𝙴𝙿𝙻𝙾𝚈𝙴𝙳... 𝙴𝙽𝙹𝙾𝚈 𝚈𝙾𝚄𝚁 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙵𝙾𝚁 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 𝙹𝙾𝙸𝙽 ➾ @CoffinX_updates")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
