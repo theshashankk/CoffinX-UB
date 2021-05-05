@@ -75,3 +75,5 @@ def remove_all_filters(chat_id):
     if saved_filter:
         saved_filter.delete()
         SESSION.commit()
+
+        #ANDI_MANDI_SANDI_JISNE_KANG_KIYA_USKI_MAA_KII_CHUTT_LALL_KRUUU
