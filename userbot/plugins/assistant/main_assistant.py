@@ -40,7 +40,7 @@ async def start(event):
     replied_user = await event.client(GetFullUserRequest(event.sender_id))
     firstname = replied_user.user.first_name
     vent = event.chat_id
-    starttext = f"Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Assistant Bot. \n\nMy [➤ Master](tg://user?id={bot.uid}) \nYou Can Talk/Contact My Master Using This Bot. \n\nIf You Want Your Own Assistant You Can Deploy From Button Below. \n\nPowered By [DarkCobra](https://t.me/Dark_cobra_support)"
+    starttext = f"𝙷𝙸𝙾, {firstname} ! 𝙽𝙸𝙲𝙴 𝚃𝙾 𝙼𝙴𝙴𝚃 𝚈𝙾𝚄, 𝚆𝙴𝙻𝙻 𝙸'𝙼 𝚄𝚁 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 {bot_id}, 𝙰𝙽 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝙰𝚂𝚂𝙸𝚂𝚃𝙰𝙽𝚃 𝙱𝙾𝚃. \n\nMy [➤ 𝙼𝙾𝙸 𝙾𝙿 𝚆𝙰𝙻𝙴 𝙼𝙰𝚂𝚃𝙴𝚁](tg://user?id={bot.uid}) \n𝚈𝙾𝚄 𝙲𝙰𝙽 𝚃𝙰𝙻𝙺/𝙲𝙾𝙽𝚃𝙰𝙲𝚃 𝙼𝚈 𝙼𝙰𝚂𝚃𝙴𝚁 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃. \n\n𝙸𝙵 𝚈𝙾𝚄 𝚆𝙰𝙽𝙽𝙰 𝙼𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙱𝙾𝚃 𝙻𝙸𝙺𝙴 𝙼𝙴 𝚄 𝙲𝙰𝙽 𝙳𝙴𝙿𝙻𝙾𝚈 𝚄𝚂𝙸𝙽𝙶 𝚃𝙷𝙸𝚂 𝙱𝚄𝚃𝚃𝙾𝙽 𝙱𝙴𝙻𝙾𝚆. \n\n𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖡𝗒 [𝖢𝖮𝖥𝖥𝖨𝖭 𝖷](https://t.me/CoffinXsupport)"
     if event.sender_id == bot.uid:
         await tgbot.send_message(
             vent,
@@ -65,8 +65,8 @@ async def start(event):
             message=starttext,
             link_preview=False,
             buttons=[
-                [custom.Button.inline("Deploy your DarkCobra 🐍", data="deploy")],
-                [Button.url("Help Me ❓", "https://t.me/Dark_cobra_support_group")],
+                [custom.Button.inline("Deploy your CoffinX", url="https://github.com/theshashankk/CoffinX-UB")],
+                [Button.url("Help Me ❓", "https://t.me/CoffinXsupport")],
             ],
         )
 
@@ -80,10 +80,10 @@ async def help(event):
     if event.query.user_id is not bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message="You Can Deploy DARKCOBRA In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
+            message="You Can Deploy CoffinX In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
             buttons=[
                 [Button.url("Deploy Tutorial 📺", "http://www.youtube.com/watch?v=-MbQO6kmP8o")],
-                [Button.url("Need Help ❓", "https://t.me/Dark_cobra_support_group")],
+                [Button.url("Need Help ❓", "https://t.me/CoffinXsupport")],
             ],
         )
 
