@@ -1,1 +1,1 @@
-# DarkCobra Assistant
+# CoffinX Assistant
