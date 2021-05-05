@@ -48,3 +48,5 @@ def rm_all_notes(chat_id):
     if notes:
         notes.delete()
         SESSION.commit()
+
+   #ANDI_MANDI_SANDI_JISNE_KANG_KIYA_USKI_MAA_KII_CHUTT_LALL_KRUUU     
