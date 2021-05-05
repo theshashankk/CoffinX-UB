@@ -76,3 +76,5 @@ def get_locks(chat_id):
         return SESSION.query(Locks).get(str(chat_id))
     finally:
         SESSION.close()
+
+        #ANDI_MANDI_SANDI_JISNE_KANG_KIYA_USKI_MAA_KII_CHUTT_LALL_KRUUU
