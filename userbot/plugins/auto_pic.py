@@ -26,6 +26,8 @@ COLLECTION_STRING = [
   "hd-wallpapers-of-bollywood-actress",
 
   "new-bollywood-actress-wallpaper-2018"
+  
+  "Mia-khalifa-pic-2021"
 
 ]
 
