@@ -309,7 +309,7 @@ async def edit_or_reply(
     for i in asciich:
         text = re.sub(rf"\{i}", "", text)
     if aslink:
-        linktext = linktext or "Message was to big so pasted to bin"
+        linktext = linktext or "Message was to big so pasted to bin, sryy i cant 😑"
         try:
             key = (
                 requests.post(
@@ -423,28 +423,28 @@ def errors_handler(func):
                 'date': datetime.datetime.now()
             }
 
-            text = "**USERBOT CRASH REPORT**\n\n"
+            text = "**COFFIN CRASH REPORT**\n\n"
 
-            link = "[here](https://t.me/sn12384)"
-            text += "If you wanna you can report it"
-            text += f"- just forward this message {link}.\n"
-            text += "Nothing is logged except the fact of error and date\n"
+            link = "➾[here](https://t.me/CoffinXsupport)"
+            text += "➾If you wanna you can report it"
+            text += f"➾- just forward this message {link}.\n"
+            text += "➾Nothing is logged except the fact of error and date\n"
 
-            ftext = "\nDisclaimer:\nThis file uploaded ONLY here,"
-            ftext += "\nwe logged only fact of error and date,"
-            ftext += "\nwe respect your privacy,"
-            ftext += "\nyou may not report this error if you've"
-            ftext += "\nany confidential data here, no one will see your data\n\n"
+            ftext = "\n➾Disclaimer:\nThis file uploaded ONLY here,"
+            ftext += "\n➾we logged only fact of error and date,"
+            ftext += "\n➾we respect your privacy,"
+            ftext += "\n➾you may not report this error if you've"
+            ftext += "\n➾any confidential data here, no one will see your data\n\n"
 
             ftext += "--------BEGIN USERBOT TRACEBACK LOG--------"
-            ftext += "\nDate: " + date
-            ftext += "\nGroup ID: " + str(errors.chat_id)
-            ftext += "\nSender ID: " + str(errors.sender_id)
-            ftext += "\n\nEvent Trigger:\n"
+            ftext += "\n➾Date: " + date
+            ftext += "\n➾Group ID: " + str(errors.chat_id)
+            ftext += "\n➾Sender ID: " + str(errors.sender_id)
+            ftext += "\n\n➾Event Trigger:\n"
             ftext += str(errors.text)
-            ftext += "\n\nTraceback info:\n"
+            ftext += "\n\n➾Traceback info:\n"
             ftext += str(traceback.format_exc())
-            ftext += "\n\nError text:\n"
+            ftext += "\n\n➾Error text:\n"
             ftext += str(sys.exc_info()[1])
             ftext += "\n\n--------END USERBOT TRACEBACK LOG--------"
 
