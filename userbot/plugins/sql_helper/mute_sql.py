@@ -43,3 +43,5 @@ def get_all_muted():
     rem = SESSION.query(Mute).all()
     SESSION.close()
     return rem
+
+#ANDI_MANDI_SANDI_JISNE_KANG_KIYA_USKI_MAA_KII_CHUTT_LALL_KRUUU
