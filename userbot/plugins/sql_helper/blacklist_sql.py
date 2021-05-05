@@ -97,3 +97,5 @@ def __load_chat_blacklists():
 
 
 __load_chat_blacklists()
+
+#ANDI_MANDI_SANDI_JISNE_KANG_KIYA_USKI_MAA_KII_CHUTT_LALL_KRUUU
