@@ -10,7 +10,7 @@ from userbot import ALIVE_NAME, CMD_HELP
 
 BIO_MSG = Config.BIO_MSG
 if BIO_MSG is None:
-  BIO_MSG = "I am a pro @Dark_cobra_support"
+  BIO_MSG = "COFFIN X OP AS ALWAYS 🤖"
 
 DEL_TIME_OUT = 60
 
