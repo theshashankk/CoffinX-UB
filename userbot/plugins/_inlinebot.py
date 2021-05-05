@@ -25,11 +25,6 @@ delete kr diya h _inline
 
 
 
-#gtfo
-
-#getlost
-
-#TEAM DC
 
 #special plugin for Kangers..
 
