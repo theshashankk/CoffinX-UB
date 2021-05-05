@@ -29,10 +29,10 @@ async def _(event):
     translated = translator.translate(text, dest=lan)
     after_tr_text = translated.text
     output_str = (
-        f"**Translated By DarkCobra Assistant Bot** \n"
+        f"**Translated By CoffinX Assistant Bot 🤖** \n"
         f"From {translated.src} to {lan} \n{after_tr_text}"
     )
     try:
         await tgbot.send_message(event.chat_id, output_str)
     except Exception:
-        await tgbot.send_message(event.chat_id, "Something Went Wrong 🤔")
+        await tgbot.send_message(event.chat_id, "Something Went Wrong 🤒")
