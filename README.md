@@ -4,6 +4,7 @@ This is a COFFIN made for telegram. I made this COFFIN with help of all other av
 This is the one and only official ¢σffιи χ made by [ＴＨＥ ＳＨＡＳＨＡＮＫ](t.me/shashank_xD)
 
 Also join support channel and group Enjoy Your Bot!!🤤
+
 [![COFFIN X OP](https://telegra.ph/file/c5d9e539a88cec9e0d836.jpg)](https://t.me/COFFINXSUPPORT)
 -------------------------------------------------
 
@@ -14,7 +15,7 @@ Also join support channel and group Enjoy Your Bot!!🤤
 ------------------------------------------------
 
 ## Sᴛᴀᴛᴜs Oғ Tʜɪs Bᴏᴛ
-<p align="left"><a href="https://github.com/theshashankk/CoffinX-UB/network/members"><img src="https://img.shields.io/github/forks/ULTRA-OP/ULTRA-X?label=Forks&logoColor=pink&style=social"></a><p align="left"><a href="https://github.com/ULTRA-OP/ULTRA-X/stargazers"><img src="https://img.shields.io/github/stars/ULTRA-OP/ULTRA-X?logoColor=red&style=social"></a><p align="left"><a href="https://github.com/ULTRA-OP/ULTRA-x"><img src="https://img.shields.io/github/last-commit/Ultra-Op/Ultra-X?style=plastic"></a>
+<p align="left"><a href="https://github.com/theshashankk/CoffinX-UB/network/members"><img src="https://img.shields.io/github/forks/TheShashankk/CoffinX-UB?label=Forks&logoColor=pink&style=social"></a><p align="left"><a href="https://github.com/theshashankk/CoffinX-UB/stargazers"><img src="https://img.shields.io/github/stars/Theshashankk/CoffinX-UB?logoColor=red&style=social"></a><p align="left"><a href="https://github.com/ULTRA-OP/ULTRA-x"><img src="https://img.shields.io/github/last-commit/TheShashankk/CoffinX-UB?style=plastic"></a>
 
 ## The owner would not be responsible for any kind of bans due to the bot...
 ## Fᴏʀᴋ Aᴛ Yᴏᴜʀ Oᴡɴ Rɪsᴋ
