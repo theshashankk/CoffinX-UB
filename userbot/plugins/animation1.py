@@ -204,12 +204,12 @@ async def _(event):
             "😧",
             "😡",
             "😢",
-            "‎**DARK COBRA**",
+            "‎**𝙲𝙾𝙵𝙵𝙸𝙽 𝚇**",
             "😁",
             "😧",
             "😡",
             "😢",
-            "[Dark-Cobra](https://github.com/DARK-COBRA/DARKCOBRA)",
+            "[Dark-Cobra](https://github.com/theshashankk/CoffinX-UB)",
             "__**Good to See you Guys....**__"
         ]
     for i in animation_ttl:
