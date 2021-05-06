@@ -12,7 +12,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 from userbot import CMD_HELP, bot
 from userbot.utils import admin_cmd, sudo_cmd
 
-UPSTREAM_REPO_URL = "https://github.com/DARK-COBRA/DARKCOBRA"
+UPSTREAM_REPO_URL = "https://github.com/theshashankk/CoffinX-UB"
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 HEROKU_APP_NAME = Var.HEROKU_APP_NAME
 
@@ -60,7 +60,7 @@ async def upstream(ups):
         return
     except InvalidGitRepositoryError as error:
         if conf != "now":
-            await ups.edit(f"**Hey ßoss!!!**😁😁\n__To get the Latest update of__ \n©DARK_COBRA_SUPPORT\n\n do |`.update now`| 😎😎 ")
+            await ups.edit(f"**Hey ßoss!!!**😁😁\n__To get the Latest update of__ \n©𝙲𝙾𝙵𝙵𝙸𝙽 𝚇\n\n do |`.update now`| 😎😎 ")
             return
         repo = Repo.init()
         origin = repo.create_remote('upstream', off_repo)
@@ -149,7 +149,7 @@ async def upstream(ups):
             await asyncio.sleep(1)
             await ups.edit("`⬛⬛⬛⬛ \n⬛❇️❇️⬛ \n⬛❇️❇️⬛ \n⬛⬛⬛⬛`")
             await asyncio.sleep(1)
-        await ups.edit("`⚜️Updating DarkCobra⚜️\n\nYou are the 👑KING👑 Boss!!\n\nPlease wait 5min😁😁\nThen try .alive to check` 😎😎\n\n**Powered by :-**\n©DARK_COBRA_SUPPORT ")
+        await ups.edit("`⚜️𝚄𝚙𝚍𝚊𝚝𝚒𝚗𝚐 𝙲𝚘𝚏𝚏𝚒𝚗 𝚇 𝚄𝙱⚜️\n\n𝚈𝚘𝚞 𝙰𝚛𝚎 𝚃𝚑𝚎 👑𝙺𝙸𝙽𝙶👑 𝙱𝚘𝚜𝚜!!\n\n𝙿𝚕𝚎𝚊𝚜𝚎 𝚆𝚊𝚒𝚝 5𝙼𝚒𝚗😁😁\n𝚃𝚑𝚎𝚗 𝚃𝚛𝚢 .alive 𝚃𝚘 𝙲𝚑𝚔` 😎😎\n\n**𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝙱𝚢 :-**\n©𝙲𝙾𝙵𝙵𝙸𝙽𝚇 𝚄𝙱 ")
         remote.push(refspec="HEAD:refs/heads/master", force=True)
     else:
         try:
