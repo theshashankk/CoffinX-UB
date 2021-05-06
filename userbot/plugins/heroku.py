@@ -176,7 +176,7 @@ async def _(dyno):
             dyno.chat_id,
             "logs.txt",
             reply_to=dyno.id,
-            caption="DARK COBRA logs of 100+ lines",
+            caption="𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 logs of 100+ lines",
         )
         
         await asyncio.sleep(5)
