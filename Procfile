@@ -1,2 +1,2 @@
-userbot: python -m userbot
+worker: python3 start.py
 
