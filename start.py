@@ -5,4 +5,4 @@ system ("git clone https://github.com/theshashankk/CoffinX-UB && cd coffinx-ub &
 # try af
 print("OH SYSTEM IS CRASHED")
 system("python3 -m userbot")
-print ("
+print ("shitt userbot crashed")
