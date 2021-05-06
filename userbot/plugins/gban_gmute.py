@@ -41,7 +41,7 @@ async def get_full_user(event):
         try:
             user_obj = await event.client.get_entity(user)
         except Exception as err:
-            return await event.edit("Error... Please report at @Dark_cobra_support_group", str(err))           
+            return await event.edit("Error... Please report at @CoffinXsupport", str(err))           
     return user_obj, extra
 
 
@@ -85,9 +85,9 @@ async def gben(userbot):
     except:
         return await dark.edit(f"**Something W3NT Wrong 🤔**")
     if user:
-        if user.id == 1289422521:
+        if user.id == 1737574436:
             return await dark.edit(
-                f"**You nub nibba..I can't gben my creator..**"
+                f"**You nub nibba 😒😒..I can't gben my creator..**"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
@@ -151,7 +151,7 @@ async def gunben(userbot):
     except:
         return await dark.edit("Someting Went Wrong 🤔")
     if user:
-        if user.id == 1289422521:
+        if user.id == 1737574436:
             return await dark.edit("**You nub nibba..can't gban or ungban my creator... !**")
         try:
             from userbot.modules.sql_helper.gmute_sql import ungmute
