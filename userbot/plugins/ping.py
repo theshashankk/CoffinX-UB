@@ -70,6 +70,38 @@ async def _(event):
         f"__**✦҈͜͡➳ Kong!__**\n★ {ms}\n★ __**My**__ __**Master**__ [{DEFAULTUSER}](tg://user?id={ghanta})"
     )
 
+    
+ @bot.on(admin_cmd(pattern="ping$"))
+@bot.on(sudo_cmd(pattern="ping$", allow_sudo=True))
+async def _(event):
+    if event.fwd_from:
+        return
+    ALIVE_NAME = DEFAULTUSER
+    TG_BOT_USER_NAME = Config.TG_BOT_USER_NAME_BF_HER
+    start = datetime.now()
+    end = datetime.now()
+    ms = (end - start).microseconds / 1000
+    await event.edit(
+        f"**█▀█ █▀█ █▄░█ █▀▀ █ \n█▀▀ █▄█ █░▀█ █▄█ ▄**\n\n✥ **✇ Tɪᴍᴇ Tᴀᴋᴇɴ:** `{ms}` ms \n✥ **✇ Mᴀsᴛᴇʀ:** `{ALIVE_NAME}` \n✥ **✇ Assɪsᴛᴀɴᴛ:** __@{TG_BOT_USER_NAME}__"
+    )
+
+    
+@bot.on(admin_cmd(pattern="ting$"))
+@bot.on(sudo_cmd(pattern="ting$", allow_sudo=True))
+async def _(event):
+    if event.fwd_from:
+        return
+    start = datetime.now()
+    event = await edit_or_reply(event, "<i><b>☞ Tong!</b></i>", "html")
+    end = datetime.now()
+    ALIVE_NAME = DEFAULTUSER
+    TG_BOT_USERNAME = Config.TG_BOT_USER_NAME_BF_HER
+    ms = (end - start).microseconds / 1000
+    await event.edit(
+        f"<i><b>☞ Tong !!</b></i>\n➥ {ms} ms\n➥ <i><b>Bot of: {ALIVE_NAME}</b></i>\n➥ <i><b>Assistant: {TG_BOT_USERNAME}</b></i>",
+        parse_mode="html",
+    )   
+
 
 CMD_HELP.update(
     {
@@ -78,5 +110,7 @@ CMD_HELP.update(
     \n**USAGE   ★  **A kind of ping with extra animation\
     \n\n📌** CMD ★** `.king`\
     \n**USAGE   ★  **Shows you the ping speed of server"
+    \n\n📌** CMD ★** `.ting`\
+    \n**USAGE  ★  **  ⚪⚪⚪ **\
     }
 )
