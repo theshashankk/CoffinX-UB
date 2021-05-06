@@ -1,3 +1,3 @@
 build: 
   docker:
-      coffinx: Dockerfile
+      CoffinX-UB: Dockerfile
