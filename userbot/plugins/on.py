@@ -22,7 +22,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 global ok
 ok = borg.uid
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "DARK COBRA"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "COFFIN X"
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO" , None)
 
 TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
