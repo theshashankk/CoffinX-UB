@@ -34,14 +34,14 @@ if TG_BOT_USER_NAME_BF_HER is not None:
         query = event.text
         me = await borg.get_me()
         uptime = await dcdef.get_readable_time((time.time() - Lastupdate))
-        dc_text=(f"** 𝙳𝙰𝚁𝙺 𝙲𝙾𝙱𝚁𝙰 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴**\n\n**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n✘ About My System ✘\n\n➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/Dark_cobra_support)\n➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝙏𝙚𝙖𝙢 𝘿𝘾](https://github.com/DARK-COBRA)\n➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝘿𝙖𝙧𝙠-𝘾𝙤𝙗𝙧𝙖](https://github.com/DARK-COBRA/DARKCOBRA)\n\n➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
+        dc_text=(f"** 𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴**\n\n**Yes Master, Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n✘ About My System ✘\n\n➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/Dark_cobra_support)\n➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝙏𝙚𝙖𝙢 𝘿𝘾](https://github.com/DARK-COBRA)\n➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝘿𝙖𝙧𝙠-𝘾𝙤𝙗𝙧𝙖](https://github.com/DARK-COBRA/DARKCOBRA)\n\n➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ok})\n")
         if query.startswith("alive") and event.query.user_id == me.id:
             buttons = [
                 [
-                    Button.url("Repo", "https://github.com/DARK-COBRA/DARKCOBRA"),
-                    Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/DARK-COBRA/DARKCOBRA/blob/master")],
+                    Button.url("Repo", "https://github.com/theshashankk/CoffinX-UB"),
+                    Button.url("Deploy", "https://heroku.com/deploy?template=https://github.com/theshashankk/CoffinX-UB/blob/master")],
                     [Button.url("String", "https://repl.it/@Danish00/DarkCobra#main.py"),
-                    Button.url("Channel", "https://t.me/Dark_cobra_support"),
+                    Button.url("Channel", "https://t.me/CoffinXsupport"),
                 ]
             ]
             if ALIVE_PHOTTO and ALIVE_PHOTTO.endswith((".jpg", ".png")):
@@ -54,14 +54,14 @@ if TG_BOT_USER_NAME_BF_HER is not None:
             elif ALIVE_PHOTTO:
                 result = builder.document(
                     ALIVE_PHOTTO,
-                    title="DARK Cobra",
+                    title="COFFIN X",
                     text=dc_text,
                     buttons=buttons,
                     link_preview=False,
                 )
             else:
                 result = builder.article(
-                    title="Dark Cobra",
+                    title="COFFIN X",
                     text=dc_text,
                     buttons=buttons,
                     link_preview=False,
