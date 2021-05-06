@@ -1,17 +1,8 @@
 import os 
 import subprocess
 from logging import DEBUG, INFO, basicConfig, getLogger, warning
-basicConfig(format="[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s", level=INFO)
-LOGS = getLogger("Helper")
-os.system("git clone https://github.com/theshashankk/CoffinX-UB coffinx-ub")
-os.chdir("coffin-ub")
-process = subprocess.Popen(
-        ["python3", "-m", "userbot"],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT,)
-out, er = process.communicate()
-if er:
-    LOGS.warning(er.decode())
-print("::::::::::::::")
-if out:
-    LOGS.info(out.decode())
+system ("git clone https://github.com/theshashankk/CoffinX-UB && cd coffinx-ub && python3 -m userbot")
+# try af
+print("OH SYSTEM IS CRASHED")
+system("python3 -m userbot")
+print ("
