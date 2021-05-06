@@ -43,13 +43,13 @@ async def hmm(yes):
     uptime = await dcdef.get_readable_time((time.time() - Lastupdate))
     pm_caption = "** 𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴 **\n\n"
     pm_caption += "**Am Alive And Systems Are Working Perfectly As It Should Be...**\n\n"
-    pm_caption += "✘ About My System ✘\n\n"
-    pm_caption += f"➾ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ** ☞ {version.__version__}\n"
-    pm_caption += "➾ **ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ** ☞ [ᴊᴏɪɴ](https://t.me/CoffinX_Updates)\n"
-    pm_caption += "➾ **ʟɪᴄᴇɴꜱᴇ**  ☞ [𝚃𝙴𝙰𝙼 𝙲𝙾𝙵𝙵𝙸𝙽](https://github.com/theshashankk)\n"
-    pm_caption += "➾ **ᴄᴏᴘʏʀɪɢʜᴛ ʙʏ** ☞ [𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 𝚄𝙱](https://github.com/theshashankk/CoffinX-UB)\n\n"
-    pm_caption += f"➾ **ᴜᴘᴛɪᴍᴇ** ☞ {uptime}\n\n"
-    pm_caption += f"➾ **ᴍʏ ᴍᴀsᴛᴇʀ** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
+    pm_caption += "✖ About My System ✖\n\n"
+    pm_caption += f"➜ **𝙏𝙀𝙇𝙀𝙏𝙃𝙊𝙉 𝙑𝙀𝙍𝙎𝙄𝙊𝙉** ☞ {version.__version__}\n"
+    pm_caption += "➜ **𝙎𝙐𝙋𝙋𝙊𝙍𝙏 𝘾𝙃𝘼𝙉𝙉𝙀𝙇** ☞ [ᴊᴏɪɴ](https://t.me/CoffinX_Updates)\n"
+    pm_caption += "➜ **𝙇𝙄𝘾𝙀𝙉𝙎𝙀**  ☞ [𝚃𝙴𝙰𝙼 𝙲𝙾𝙵𝙵𝙸𝙽](https://github.com/theshashankk)\n"
+    pm_caption += "➜ **𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔** ☞ [𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 𝚄𝙱](https://github.com/theshashankk/CoffinX-UB)\n\n"
+    pm_caption += f"➜ **𝘾𝙊𝙁𝙁𝙄𝙉 𝙐𝙋𝙏𝙄𝙈𝙀** ☞ {uptime}\n\n"
+    pm_caption += f"➜ **𝙈𝙔 𝙋𝙀𝙍𝙊 𝙈𝘼𝙎𝙏𝙀𝙍** ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n"
     on = await borg.send_file(yes.chat_id, file=file1,caption=pm_caption)
 
     await asyncio.sleep(edit_time)
