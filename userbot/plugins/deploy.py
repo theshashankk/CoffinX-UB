@@ -8,7 +8,7 @@ from userbot import CMD_HELP
 from userbot import AUTONAME
 
 
-DEFAULTUSER = str(AUTONAME) if AUTONAME else "DARK-COBRA"
+DEFAULTUSER = str(AUTONAME) if AUTONAME else "COFFIN-X"
 
 @borg.on(admin_cmd(pattern=r"deploy"))
 
