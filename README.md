@@ -37,5 +37,5 @@ Also join support channel and group Enjoy Your Bot!!🤤
 ## •BIG THANKS TO DARK COBRA 
 
 # Cʀᴇᴅɪᴛs 📍
-## • DARK-COBRA  »»  <a href="https://github.com/LEGENDXOP" alt="Dark Cobra"> <img src="https://img.shields.io/badge/DARK COBRQ-E5E4E2?logo=github" /></a>
-### • HELL-BOT ATUL  »»  <a href="https://github.com/LEGENDXOP/LEGEND-BOT" alt="UltraX"> <img src="https://img.shields.io/badge/HELL BOT-ATUL98AFC7?logo=github" /></a>
+## • DARK-COBRA  »»  <a href="https://github.com/DARK-COBRA" alt="Dark Cobra"> <img src="https://img.shields.io/badge/DARK COBRQ-E5E4E2?logo=github" /></a>
+### • HELL-BOI ATUL  »»  <a href="https://github.com/hellboi-atul" alt="UltraX"> <img src="https://img.shields.io/badge/HELL BOT-ATUL98AFC7?logo=github" /></a>
