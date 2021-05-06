@@ -110,7 +110,5 @@ CMD_HELP.update(
     \n**USAGE   ★  **A kind of ping with extra animation\
     \n\n📌** CMD ★** `.king`\
     \n**USAGE   ★  **Shows you the ping speed of server"
-    \n\n📌** CMD ★** `.ting`\
-    \n**USAGE  ★  **  ⚪⚪⚪ **\
     }
 )
