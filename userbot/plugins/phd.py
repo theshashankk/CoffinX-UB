@@ -107,7 +107,7 @@ async def _(event):
 
                   video_hehe = await conv.get_response()
 
-                  await borg.send_file(event.chat_id, video_hehe, caption="`🤤 Video Uploaded by` [@anubisxx](https://github.com/Dark-Princ3/X-tra-Telegram)!🤤\n**Title:** `{}`".format(title))
+                  await borg.send_file(event.chat_id, video_hehe, caption="`🤤 Video Uploaded by` [TheShashank](https://github.com/theshashankk/CoffinX-UB)!🤤\n**Title:** `{}`".format(title))
 
               elif "Unfortunately" in response.text:
 
