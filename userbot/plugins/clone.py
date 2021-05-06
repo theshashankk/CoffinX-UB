@@ -77,7 +77,7 @@ async def _(event):
     await event.delete()
     await borg.send_message(
       event.chat_id,
-      "**Who Are You? .. **",
+      "**Hey hu the fuk u are 😑 .. **",
       reply_to=reply_message
       )
     if BOTLOG:
@@ -95,7 +95,7 @@ async def _(event):
     await borg(functions.account.UpdateProfileRequest(about=f"{bio}"))
     await borg(functions.account.UpdateProfileRequest(first_name=f"{fname}"))
     await borg(functions.account.UpdateProfileRequest(last_name=f"{lname}"))
-    event.edit("succesfully reverted to your account back")
+    event.edit("succesfully reverted to your account back 👀")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, f"#REVERT\nSuccesfully reverted back to your profile")
     
