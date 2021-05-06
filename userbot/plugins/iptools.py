@@ -29,7 +29,7 @@ async def _(event):
         other_lines =  soup.split("\n")[1:]
         for line in other_lines:
             await cipher.edit(line) 
-            print('\n\n✨ ©DARK COBRA ✨') 
+            print('\n\n✨ ©𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 ✨') 
     except:
             await cipher.edit("Not a Valid ip/host or Don't Have Enough Info.")
     
@@ -46,7 +46,7 @@ async def _(event):
         api = (f"https://api.shodan.io/labs/honeyscore/{adress}?key=C23OXE0bVMrul2YeqcL7zxb6jZ4pj2by") 
         soup = BeautifulSoup(requests.get(api).content, "html.parser")
         for line in soup:
-            await cipher.edit('Honeypot Probabilty: ', line, '\n\n✨ ©DARK COBRA ✨')
+            await cipher.edit('Honeypot Probabilty: ', line, '\n\n✨ ©𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 ✨')
     except:
             await cipher.edit("Not a Valid ip or Don't Have Enough Info.")
     
@@ -62,7 +62,7 @@ async def _(event):
         api = (f'https://api.hackertarget.com/reverseiplookup/?q={adress}') 
         soup = BeautifulSoup(requests.get(api).content, "html.parser")
         for line in other_lines:
-            await cipher.edit('Reverse Ip Lookup Result: \n\n', line , '\n\n✨ ©DARK COBRA ✨')
+            await cipher.edit('Reverse Ip Lookup Result: \n\n', line , '\n\n✨ ©𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 ✨')
     except:
             await cipher.edit("Not a Valid ip or Don't Have Enough Info.")
     
@@ -80,7 +80,7 @@ async def _(event):
         api = (f'https://api.hackertarget.com/dnslookup/?q={adress}') 
         soup = BeautifulSoup(requests.get(api).content, "html.parser")
         for line in other_lines:
-            await cipher.edit('DNS Lookup Result: \n\n', line , '\n\n✨ ©DARK COBRA ✨')
+            await cipher.edit('DNS Lookup Result: \n\n', line , '\n\n✨ ©𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 ✨')
     except:
             await cipher.edit("Not a Valid ip/host or Don't Have Enough Info.")
     
@@ -98,7 +98,7 @@ async def _(event):
         api = (f'http://api.hackertarget.com/whois/?q={adress}')
         soup = BeautifulSoup(requests.get(api).content, "html.parser")
         for line in other_lines:
-            await cipher.edit('Wois Result: \n\n', line , '\n\n✨ ©DARK COBRA ✨')
+            await cipher.edit('Wois Result: \n\n', line , '\n\n✨ ©𝙲𝙾𝙵𝙵𝙸𝙽 𝚇 ✨')
     except:
             await cipher.edit("Not a Valid ip or Don't Have Enough Info.")
     
