@@ -119,7 +119,7 @@
        "value": ""
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
+      "description": "Get this value by running ",
       "value": "",
       "required": true
     },
