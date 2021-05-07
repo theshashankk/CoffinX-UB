@@ -34,7 +34,6 @@ Also join support channel and group Enjoy Your Bot!!🤤
 ## Fᴏʀᴋ Aᴛ Yᴏᴜʀ Oᴡɴ Rɪsᴋ
 ## Iɴsᴛᴀʟʟɪɴɢ
 
-## •BIG THANKS TO DARK COBRA 
 
 # Cʀᴇᴅɪᴛs 📍
 ## • DARK-COBRA  »»  <a href="https://github.com/DARK-COBRA" alt="Dark Cobra"> <img src="https://img.shields.io/badge/DARK COBRQ-E5E4E2?logo=github" /></a>
