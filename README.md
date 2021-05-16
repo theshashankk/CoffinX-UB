@@ -37,4 +37,4 @@ Also join support channel and group Enjoy Your Bot!!🤤
 
 # Cʀᴇᴅɪᴛs 📍
 ## • DARK-COBRA  »»  <a href="https://github.com/DARK-COBRA" alt="Dark Cobra"> <img src="https://img.shields.io/badge/DARK COBRA-E5E4E2?logo=github" /></a>
-### • HELL-BOI ATUL  »»  <a href="https://github.com/hellboi-atul" alt="UltraX"> <img src="https://img.shields.io/badge/HELL BOT-ATUL98AFC7?logo=github" /></a>
+### • HELL-BOI ATUL  »»  <a href="https://github.com/hellboi-atul" alt="UltraX"> <img src="https://img.shields.io/badge/HELL BOI-ATUL98AFC7?logo=github" /></a>
